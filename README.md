@@ -5,6 +5,8 @@
 
 FAV/E (Find A Vulnerability/Exposure) utilizes the NIST CVE database search API to search for vulnerabilities and exposures while filtering based on age, keywords, and other parameters.
 
+https://un4gi.io/blog/fave-find-a-vulnerability-exposure
+
 ## Usage:
 
 Use the `-h` flag to display available flags
