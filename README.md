@@ -31,5 +31,5 @@ $ fave -k "Windows 10" -exact -cvss CRITICAL -fy 2
 ## Installation
 To install, use:
 ```
-go get -u github.com/un4gi/fave
+go install github.com/un4gi/fave@latest
 ```
