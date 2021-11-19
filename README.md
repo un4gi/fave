@@ -26,7 +26,7 @@ $ fave -h
 
 Example usage:
 ```
-$ fave -k "Windows 10" -exact -cvss CRITICAL -fd 2
+$ fave -k "Windows 10" -exact -s CRITICAL -fd 2
 ```
 
 ## Installation
