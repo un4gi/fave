@@ -21,8 +21,8 @@ func getPagination(url string) uint {
 
 	var cveResults config.CVEResults
 	err := json.Unmarshal(req, &cveResults)
-	if err != nil {
-		fmt.Println("Error unmarshalling data:", err)
+	if err != nil && !strings.Contains(fmt.Sprint(err), "unexpected end of JSON input") {
+		fmt.Println("Error:", err)
 	}
 
 	bodyString := string(req)
@@ -55,8 +55,8 @@ func QueryAPI(q string) {
 
 		req := requests.MakeGetRequest(query)
 		err := json.Unmarshal(req, &cveResults)
-		if err != nil {
-			fmt.Println(err)
+		if err != nil && !strings.Contains(fmt.Sprint(err), "unexpected end of JSON input") {
+			fmt.Println("Error:", err)
 		}
 
 		n := 1
