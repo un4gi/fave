@@ -22,7 +22,7 @@ $ fave -h
 | `-exact` | Return only items matching the exact keyword(s) specified with -k | `fave -k un4gi -exact` |
 | `-fd` | Number of days to filter results (prior to today; maximum 120) | `fave -fd 5` |
 | `-k` | Search for CVEs based on a keyword (or words) | `fave -k "Microsoft Windows 10" -exact` |
-| `-s` | Search for CVEs based on the CVSS V3 severity. | `fave -cvss CRITICAL` |
+| `-s` | Search for CVEs based on the CVSS V3 severity. | `fave -s CRITICAL` |
 
 Example usage:
 ```
