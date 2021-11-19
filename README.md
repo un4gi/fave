@@ -10,6 +10,9 @@ https://un4gi.io/blog/fave-find-a-vulnerability-exposure
 ## Usage:
 
 Use the `-h` flag to display available flags
+
+*NOTE: NIST recently made a change to their API that broke the functionality of this tool to filter by year. As a workaround, only use the -fd option between 1-120 days. A fix is currently in the works.*
+
 ```
 $ fave -h
 ```
