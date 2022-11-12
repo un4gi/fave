@@ -36,7 +36,7 @@ var banner string = `
 
 var rootCmd = &cobra.Command{
 	Use:   "fave",
-	Short: "Find a vulnerability/enumeration",
+	Short: "Find a vulnerability/exposure",
 	Long: banner + `
 FAV/E is a CLI tool designed to enable quicker searches of the NIST CVE database.
 This tool will give a real-time look at publicly known vulnerabilities for a given
