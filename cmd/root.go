@@ -45,6 +45,17 @@ keyword or phrase, all from the command line.
 At this time, internet access is required for the tool to gather data. An offline 
 version may be released at a later date, but tools like searchsploit ultimately 
 perform the same function that an offline version of this would solve.
+
+The search command allows you to search the CVE database while filtering on a number
+of different things, such as:
+
+- keyword/words
+- age (maximum of 120 days)
+- CWE ID
+- CVSS Severity
+
+The describe command can be used to gather a more detailed set of data about a specific
+CVE-ID, complete with references for potential proof-of-concepts.
 `,
 	Run: func(cmd *cobra.Command, args []string) {
 	},
