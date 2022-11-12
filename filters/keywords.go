@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	keyAPI = "keyword="
-	match  = "&isExactMatch=true"
+	keyAPI = "keywordSearch="
+	match  = "&keywordExactMatch"
 )
 
 func FilterKeyWords(k string, m bool) string {
